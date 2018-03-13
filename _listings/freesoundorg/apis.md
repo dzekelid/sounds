@@ -30,7 +30,7 @@ apis:
   tags: Sounds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/sounds/master/_listings/freesoundorg/search-text-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/sounds/master/_listings/freesoundorg/sounds-soundid-get.md
 x-common:
 - type: x-blog
   url: https://blog.freesound.org/
