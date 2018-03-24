@@ -16,8 +16,8 @@ tags:
 - Music
 - internet
 - Audio
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   tags: Sounds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/sounds-soundid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/search-text-get.md
 x-common:
 - type: x-blog
   url: https://blog.freesound.org/
