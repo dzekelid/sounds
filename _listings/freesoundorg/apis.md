@@ -31,7 +31,39 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/sounds-soundid-get.md
+- name: Freesound Search sounds
+  description: This resource allows searching sounds in Freesound by matching their
+    tags and other kinds of metadata.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png
+  humanURL: https://freesound.org
+  baseURL: https://www.freesound.org//apiv2
+  tags: Sounds
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/search-text-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/search-text-get-postman.md
 x-common:
+- type: x-blog
+  url: https://blog.freesound.org/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/freesound
+- type: x-developer
+  url: https://freesound.org/help/developers/
+- type: x-documentation
+  url: https://freesound.org/docs/api/
+- type: x-forum
+  url: https://freesound.org/forum/
+- type: x-login
+  url: https://freesound.org/home/login/?next=/apiv2/apply/
+- type: x-selfservice-registration
+  url: https://freesound.org/home/login/?next=/apiv2/apply/
+- type: x-terms-of-service
+  url: https://freesound.org/help/tos_web/
+- type: x-twitter
+  url: https://twitter.com/freesounddev?lang=en
+- type: x-website
+  url: https://freesound.org
 - type: x-blog
   url: https://blog.freesound.org/
 - type: x-crunchbase
