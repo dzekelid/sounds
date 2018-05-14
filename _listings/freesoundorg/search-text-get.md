@@ -1,13 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Freesound
-  description: With the Freesound APIv2 you can browse, search, and retrieve information
-    about Freesound users, packs, and the sounds themselves of course. You can find
-    similar sounds to a given target (based on content analysis) and retrieve automatically
-    extracted features from audio files, as well as perform advanced queries combining
-    content analysis features and other metadata (tags, etc...). With the Freesound
-    APIv2, you can also upload, comment, rate and bookmark sounds!
+  title: Freesound Search sounds
+  description: This resource allows searching sounds in Freesound by matching their
+    tags and other kinds of metadata.
   termsOfService: http://freesound.org/help/tos_api/
   version: 1.0.0
 host: www.freesound.org
