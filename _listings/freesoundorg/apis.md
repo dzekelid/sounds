@@ -31,18 +31,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/sounds-soundid-get.md
-- name: Freesound Search sounds
-  description: This resource allows searching sounds in Freesound by matching their
-    tags and other kinds of metadata.
+- name: Freesound Details of a sound
+  description: This resource allows the retrieval of detailed information about a
+    sound.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png
   humanURL: https://freesound.org
   baseURL: https://www.freesound.org//apiv2
   tags: Sounds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/search-text-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/sounds-soundid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/search-text-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesoundorg/sounds-soundid-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.freesound.org/
