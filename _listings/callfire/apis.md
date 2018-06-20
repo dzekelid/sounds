@@ -1,16 +1,14 @@
 ---
 name: CallFire
 x-slug: callfire
-description: CallFire is a cloud-based telephony company that provides voice and text
-  connectivity services. It offers the necessary tools for businesses to communicate
-  and market effectively. The company works to provide a diverse line of innovative
-  products that enable its users to get their messages delivered.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+  mass text messaging services and power dialing. Try CallFire for FREE!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "129466"
 tags: Sounds
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +16,7 @@ apis:
   x-api-slug: callfire
   description: To find all campaign sounds which were created by user. Returns all
     sounds available to be used in campaigns
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds
   tags: Campaigns,Sounds
@@ -30,7 +28,7 @@ apis:
   description: Use this API to create a sound via a phone call. Provide the required
     phone number in the CallCreateSound object inside the request, and user will receive
     a call shortly after with instructions on how to record a sound over the phone.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds/calls
   tags: Campaigns,Sounds,Calls
@@ -40,7 +38,7 @@ apis:
 - name: Callfire Add sound via file
   x-api-slug: callfire
   description: Create a campaign sound file via a supplied .mp3 or .wav file
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds/files
   tags: Campaigns,Sounds,Files
@@ -52,7 +50,7 @@ apis:
   description: 'Use this API to create a sound file via a supplied string of text.
     Add a text in the TextToSpeech.message field, and pick a voice in the TextToSpeech.voice
     field. Available voices are: MALE1, FEMALE1, FEMALE2, SPANISH1, FRENCHCANADIAN1'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds/tts
   tags: Campaigns,Sounds,Tts
@@ -65,7 +63,7 @@ apis:
     id, this operation does not delete sound completely, it sets sound status to ARCHIVED
     which means that sound will no longer appear in 'find' operation results, but
     still accessible via 'get' operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds/{id}
   tags: Campaigns,Sounds
@@ -76,7 +74,7 @@ apis:
   x-api-slug: callfire
   description: Returns a single CampaignSound instance for a given sound id in campaign.
     This is a meta data to the sounds. No audio data is returned from this API
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds/{id}
   tags: Campaigns,Sounds
@@ -87,31 +85,29 @@ apis:
   x-api-slug: callfire
   description: Download the MP3 version of a hosted file. This is an audio data endpoint.
     Returns binary response of the 'audio/mpeg' content type
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds/{id}.mp3
   tags: Campaigns,Sounds.mp3
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/callfire/campaignssoundsidmp3-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/callfire/campaignssoundsid-mp3-get-openapi.md
 - name: Callfire Download a WAV sound
   x-api-slug: callfire
   description: Download the WAV version of the hosted file. This is an audio data
     endpoint. Returns binary response of the 'audio/mpeg' content type
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2//campaigns/sounds/{id}.wav
   tags: Campaigns,Sounds.wav
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/callfire/campaignssoundsidwav-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/callfire/campaignssoundsid-wav-get-openapi.md
 - name: Callfire
   x-api-slug: callfire
-  description: CallFire is a cloud-based telephony company that provides voice and
-    text connectivity services. It offers the necessary tools for businesses to communicate
-    and market effectively. The company works to provide a diverse line of innovative
-    products that enable its users to get their messages delivered.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+    mass text messaging services and power dialing. Try CallFire for FREE!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2
   tags: Sounds
@@ -119,7 +115,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/callfire/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
 - type: x-account-billing
   url: https://answers.callfire.com/hc/en-us/sections/200166268-Billing
@@ -141,12 +137,16 @@ x-common:
   url: https://www.callfire.com/contact
 - type: x-crunchbase
   url: https://www.crunchbase.com/organization/callfire
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/callfire
 - type: x-developer
   url: https://www.callfire.com/api-documentation
 - type: x-documentation
   url: https://www.callfire.com/api-documentation/rest/version/1.1
 - type: x-drupal-plugin
   url: https://github.com/CallFire/CallFire-Drupal-Integration
+- type: x-email
+  url: answers@callfire.com
 - type: x-email
   url: support@callfire.com
 - type: x-facebook
