@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: CallFire
 x-complete: 1
@@ -169,38 +168,3 @@ paths:
       tags:
       - Campaigns
       - Sounds
-  /campaigns/sounds/{id}.mp3:
-    get:
-      summary: Download a MP3 sound
-      description: Download the MP3 version of a hosted file. This is an audio data
-        endpoint. Returns binary response of the 'audio/mpeg' content type
-      operationId: getCampaignSoundDataMp3
-      x-api-path-slug: campaignssoundsid-mp3-get
-      parameters:
-      - in: path
-        name: id
-        description: An id of a campaign sound
-      responses:
-        200:
-          description: OK
-      tags:
-      - Campaigns
-      - Sounds.mp3
-  /campaigns/sounds/{id}.wav:
-    get:
-      summary: Download a WAV sound
-      description: Download the WAV version of the hosted file. This is an audio data
-        endpoint. Returns binary response of the 'audio/mpeg' content type
-      operationId: getCampaignSoundDataWav
-      x-api-path-slug: campaignssoundsid-wav-get
-      parameters:
-      - in: path
-        name: id
-        description: An id of a campaign sound
-      responses:
-        200:
-          description: OK
-      tags:
-      - Campaigns
-      - Sounds.wav
----

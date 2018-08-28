@@ -11,53 +11,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "6485"
 tags: Sounds
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesound/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Freesound Search sounds
-  x-api-slug: freesound
+- name: Freesound - Search sounds
+  x-api-slug: searchtext-get
   description: This resource allows searching sounds in Freesound by matching their
     tags and other kinds of metadata.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png
   humanURL: https://freesound.org
-  baseURL: https://www.freesound.org//apiv2//search/text
-  tags: Search, Sounds
+  baseURL: https://www.freesound.org//apiv2
+  tags: Technology, internet, Audio, Sounds, Music, API Provider, Profiles, General
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesound/searchtext-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesound/searchtext-get-openapi.md
-- name: Freesound Details of a sound
-  x-api-slug: freesound
+- name: Freesound - Details of a sound
+  x-api-slug: soundssoundid-get
   description: This resource allows the retrieval of detailed information about a
     sound.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png
   humanURL: https://freesound.org
-  baseURL: https://www.freesound.org//apiv2//sounds/{soundId}
-  tags: Sounds
+  baseURL: https://www.freesound.org//apiv2
+  tags: Technology, internet, Audio, Sounds, Music, API Provider, Profiles, General
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesound/soundssoundid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesound/soundssoundid-get-openapi.md
-- name: Freesound
-  x-api-slug: freesound
-  description: Freesound aims to create a huge collaborative database of audio snippets,
-    samples, recordings, bleeps, ... released under Creative Commons licenses that
-    allow their reuse. Freesound provides new and interesting ways of accessing these
-    samples, allowing users to browse the sounds in new ways using keywords, a sounds-like
-    type of browsing and more--upload and download sounds to and from the database,
-    under the same creative commons license, and interact with fellow sound-artists!
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png
-  humanURL: https://freesound.org
-  baseURL: https://www.freesound.org//apiv2
-  tags: Sounds
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sounds/master/_listings/freesound/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://fraudlabs.pro.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://freesound.stack.network
 - type: x-blog
   url: https://blog.freesound.org/
 - type: x-crunchbase
